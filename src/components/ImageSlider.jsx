@@ -1,24 +1,93 @@
-import React, {useState} from 'react'
+import React, {Component, useState} from 'react'
+import aaa from './photos/1.jpg';
+import bbb from './photos/2.jpg';
+import ccc from './photos/3.jpg';
+import ddd from './photos/4.jpg';
+import eee from './photos/5.jpg';
+import fff from './photos/6.jpg';
+import ggg from './photos/7.jpg';
+import iii from './photos/8.jpg';
+import jjj from './photos/9.jpg';
+import kkk from './photos/10.jpg';
+import lll from './photos/66.jpg';
+import mmm from './photos/90.jpg';
+import nnn from './photos/123.jpg';
+import ooo from './photos/678.jpg';
+import ppp from './photos/4560.jpg';
+import qqq from './photos/9088.jpg';
+import rrr from './photos/Front.jpg';
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs'
 import {RxDotFilled} from 'react-icons/rx'
 
 const ImageSlider = () => {
     const slides = [
       {
-        url: 'https://images.unsplash.com/photo-1464093515883-ec948246accb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2659&q=80',
-        title: 'Lobster',
+        url: aaa,
+        
       },
       {
-        url: 'https://images.unsplash.com/photo-1512132411229-c30391241dd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        title: 'Sushi',
+        url: bbb,
+
       },
       {
-        url: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        title: 'Pasta',
+        url: ccc,
+ 
       },
       {
-        url: 'https://images.unsplash.com/photo-1539136788836-5699e78bfc75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
-        title: 'Salmon',
+        url: ddd,
+        
+      },
+      {
+        url: eee,
+        
+      },
+      {
+        url: fff,
+        
+      },
+      {
+        url: ggg,
+        
+      },
+      {
+        url: iii,
+        
+      },
+      {
+        url: jjj,
+        
+      },
+      {
+        url: kkk,
+        
+      },
+      {
+        url: lll,
+        
+      },
+      {
+        url: mmm,
+        
+      },
+      {
+        url: nnn,
+        
+      },
+      {
+        url: ooo,
+        
+      },
+      {
+        url: ppp,
+        
+      },
+      {
+        url: qqq,
+        
+      },
+      {
+        url: rrr,
+        
       },
     ];
 
